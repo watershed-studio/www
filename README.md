@@ -1,3 +1,3 @@
-# Simple Sites
+# Watershed.studio
 
- * This site is for simple sites.
+ * This is our website.
