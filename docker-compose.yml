@@ -1,12 +1,10 @@
 version: '3.1'
 
 services:
-  watershedstudio:
-    container_name: watershedstudio
-    image: watershed.studio:www
-    build:
-      context: .
-      dockerfile: Dockerfile
+  www-wstudio:
+    container_name: www-wstudio
+    image: www-wstudio
+    build: .
     ports:
       - "3200:3000"
     networks:
